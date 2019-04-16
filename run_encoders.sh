@@ -66,47 +66,6 @@ fi
 if [ $2 == "4DLF_13x13_PVS_I12_YUV444_10" ] ; then
         SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV44410/I12/I12_PVSSPIRAL_YUV44410.yuv"
 fi
-# PVSSPIRAL YUV4208
-FO=0
-W=626
-H=434
-MIR=13
-if [ $2 == "4DLF_13x13_PVS_I01_YUV420_8" ] ; then
-        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV4208/I01/I01_PVSSPIRAL_YUV4208.yuv"
-fi
-if [ $2 == "4DLF_13x13_PVS_I02_YUV420_8" ] ; then
-        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV4208/I02/I02_PVSSPIRAL_YUV4208.yuv"
-fi
-if [ $2 == "4DLF_13x13_PVS_I03_YUV420_8" ] ; then
-        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV4208/I03/I03_PVSSPIRAL_YUV4208.yuv"
-fi
-if [ $2 == "4DLF_13x13_PVS_I04_YUV420_8" ] ; then
-        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV4208/I04/I04_PVSSPIRAL_YUV4208.yuv"
-fi
-if [ $2 == "4DLF_13x13_PVS_I05_YUV420_8" ] ; then
-        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV4208/I05/I05_PVSSPIRAL_YUV4208.yuv"
-fi
-if [ $2 == "4DLF_13x13_PVS_I06_YUV420_8" ] ; then
-        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV4208/I06/I06_PVSSPIRAL_YUV4208.yuv"
-fi
-if [ $2 == "4DLF_13x13_PVS_I07_YUV420_8" ] ; then
-        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV4208/I07/I07_PVSSPIRAL_YUV4208.yuv"
-fi
-if [ $2 == "4DLF_13x13_PVS_I08_YUV420_8" ] ; then
-        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV4208/I08/I08_PVSSPIRAL_YUV4208.yuv"
-fi
-if [ $2 == "4DLF_13x13_PVS_I09_YUV420_8" ] ; then
-        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV4208/I09/I09_PVSSPIRAL_YUV4208.yuv"
-fi
-if [ $2 == "4DLF_13x13_PVS_I10_YUV420_8" ] ; then
-        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV4208/I10/I10_PVSSPIRAL_YUV4208.yuv"
-fi
-if [ $2 == "4DLF_13x13_PVS_I11_YUV420_8" ] ; then
-        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV4208/I11/I11_PVSSPIRAL_YUV4208.yuv"
-fi
-if [ $2 == "4DLF_13x13_PVS_I12_YUV420_8" ] ; then
-        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV4208/I12/I12_PVSSPIRAL_YUV4208.yuv"
-fi
 
 for qp in 12 17 22 27 32 37 42 47 52
 do
