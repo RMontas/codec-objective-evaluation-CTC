@@ -19,6 +19,7 @@ fi
 if [ $6 == 2 ] # AVG PSNR YUV (views)
 then
         mkdir res_PSNR_YUV_${1}_${2}_vs_${3}_${4}
+	echo "run_bjm('${2}/${1}/${2}_bits.txt','$2/$1/${2}_avg_psnr_yuv.txt','$4/$3/${4}_bits.txt','$4/$3/${4}_avg_psnr_yuv.txt','res_PSNR_YUV_${1}_${2}_vs_${3}_${4}/bjm.txt', $5);"
         /usr/local/MATLAB/R2017a/bin/matlab -nodesktop -nosplash -r "run_bjm('${2}/${1}/${2}_bits.txt','$2/$1/${2}_avg_psnr_yuv.txt','$4/$3/${4}_bits.txt','$4/$3/${4}_avg_psnr_yuv.txt','res_PSNR_YUV_${1}_${2}_vs_${3}_${4}/bjm.txt', $5); quit;"
         mkdir res_rd_curves_PSNR_YUV_${1}_${2}_vs_${3}_${4}
 fi

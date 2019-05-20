@@ -26,46 +26,265 @@ CFG_SPIRAL_SCL_RA_2="/home/rmonteiro/PhD/hm-16.9-LF-PVS/cfg/spiral_scalable_RA_4
 CFG_SPIRAL_SCL_RA_3="/home/rmonteiro/PhD/hm-16.9-LF-PVS/cfg/spiral_scalable_RA_9way_encoder_lowdelay_main_rext.cfg"
 
 # PVSSPIRAL YUV44410
+echo $2
 FO=0
-W=625
-H=434
 MIR=13
+
+
+############### PVS YUV 444 10bpp ###############
 if [ $2 == "4DLF_13x13_PVS_I01_YUV444_10" ] ; then
+        W=625
+        H=434
         SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV44410/I01/I01_PVSSPIRAL_YUV44410.yuv"
 fi
 if [ $2 == "4DLF_13x13_PVS_I02_YUV444_10" ] ; then
+        W=625
+        H=434
         SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV44410/I02/I02_PVSSPIRAL_YUV44410.yuv"
 fi
 if [ $2 == "4DLF_13x13_PVS_I03_YUV444_10" ] ; then
+        W=625
+        H=434
         SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV44410/I03/I03_PVSSPIRAL_YUV44410.yuv"
 fi
 if [ $2 == "4DLF_13x13_PVS_I04_YUV444_10" ] ; then
+        W=625
+        H=434
         SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV44410/I04/I04_PVSSPIRAL_YUV44410.yuv"
 fi
 if [ $2 == "4DLF_13x13_PVS_I05_YUV444_10" ] ; then
+        W=625
+        H=434
         SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV44410/I05/I05_PVSSPIRAL_YUV44410.yuv"
 fi
 if [ $2 == "4DLF_13x13_PVS_I06_YUV444_10" ] ; then
+        W=625
+        H=434
         SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV44410/I06/I06_PVSSPIRAL_YUV44410.yuv"
 fi
 if [ $2 == "4DLF_13x13_PVS_I07_YUV444_10" ] ; then
+        W=625
+        H=434
         SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV44410/I07/I07_PVSSPIRAL_YUV44410.yuv"
 fi
 if [ $2 == "4DLF_13x13_PVS_I08_YUV444_10" ] ; then
+        W=625
+        H=434
         SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV44410/I08/I08_PVSSPIRAL_YUV44410.yuv"
 fi
 if [ $2 == "4DLF_13x13_PVS_I09_YUV444_10" ] ; then
+        W=625
+        H=434
         SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV44410/I09/I09_PVSSPIRAL_YUV44410.yuv"
 fi
 if [ $2 == "4DLF_13x13_PVS_I10_YUV444_10" ] ; then
+        W=625
+        H=434
         SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV44410/I10/I10_PVSSPIRAL_YUV44410.yuv"
 fi
 if [ $2 == "4DLF_13x13_PVS_I11_YUV444_10" ] ; then
+        W=625
+        H=434
         SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV44410/I11/I11_PVSSPIRAL_YUV44410.yuv"
 fi
 if [ $2 == "4DLF_13x13_PVS_I12_YUV444_10" ] ; then
+        W=625
+        H=434
         SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV44410/I12/I12_PVSSPIRAL_YUV44410.yuv"
 fi
+
+
+############### PVS YUV 420 8bpp ###############
+if [ $2 == "4DLF_13x13_PVS_I01_YUV420_8" ] ; then
+        W=626
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV4208/I01/I01_PVSSPIRAL_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_I02_YUV420_8" ] ; then
+        W=626
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV4208/I02/I02_PVSSPIRAL_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_I03_YUV420_8" ] ; then
+        W=626
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV4208/I03/I03_PVSSPIRAL_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_I04_YUV420_8" ] ; then
+        W=626
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV4208/I04/I04_PVSSPIRAL_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_I05_YUV420_8" ] ; then
+        W=626
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV4208/I05/I05_PVSSPIRAL_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_I06_YUV420_8" ] ; then
+        W=626
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV4208/I06/I06_PVSSPIRAL_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_I07_YUV420_8" ] ; then
+        W=626
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV4208/I07/I07_PVSSPIRAL_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_I08_YUV420_8" ] ; then
+        W=626
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV4208/I08/I08_PVSSPIRAL_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_I09_YUV420_8" ] ; then
+        W=626
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV4208/I09/I09_PVSSPIRAL_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_I10_YUV420_8" ] ; then
+        W=626
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV4208/I10/I10_PVSSPIRAL_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_I11_YUV420_8" ] ; then
+        W=626
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV4208/I11/I11_PVSSPIRAL_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_I12_YUV420_8" ] ; then
+        W=626
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV4208/I12/I12_PVSSPIRAL_YUV4208.yuv"
+fi
+
+
+############### MI YUV 444 10bpp ###############
+if [ $2 == "4DLF_13x13_I01_YUV444_10" ] ; then
+        W=8125
+        H=5642
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/MI/YUV44410/I01/I01_MI_YUV44410.yuv"
+fi
+if [ $2 == "4DLF_13x13_I02_YUV444_10" ] ; then
+        W=8125
+        H=5642
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/MI/YUV44410/I02/I02_MI_YUV44410.yuv"
+fi
+if [ $2 == "4DLF_13x13_I03_YUV444_10" ] ; then
+        W=8125
+        H=5642
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/MI/YUV44410/I03/I03_MI_YUV44410.yuv"
+fi
+if [ $2 == "4DLF_13x13_I04_YUV444_10" ] ; then
+        W=8125
+        H=5642
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/MI/YUV44410/I04/I04_MI_YUV44410.yuv"
+fi
+if [ $2 == "4DLF_13x13_I05_YUV444_10" ] ; then
+        W=8125
+        H=5642
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/MI/YUV44410/I05/I05_MI_YUV44410.yuv"
+fi
+if [ $2 == "4DLF_13x13_I06_YUV444_10" ] ; then
+        W=8125
+        H=5642
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/MI/YUV44410/I06/I06_MI_YUV44410.yuv"
+fi
+if [ $2 == "4DLF_13x13_I07_YUV444_10" ] ; then
+        W=8125
+        H=5642
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/MI/YUV44410/I07/I07_MI_YUV44410.yuv"
+fi
+if [ $2 == "4DLF_13x13_I08_YUV444_10" ] ; then
+        W=8125
+        H=5642
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/MI/YUV44410/I08/I08_MI_YUV44410.yuv"
+fi
+if [ $2 == "4DLF_13x13_I09_YUV444_10" ] ; then
+        W=8125
+        H=5642
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/MI/YUV44410/I09/I09_MI_YUV44410.yuv"
+fi
+if [ $2 == "4DLF_13x13_I10_YUV444_10" ] ; then
+        W=8125
+        H=5642
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/MI/YUV44410/I10/I10_MI_YUV44410.yuv"
+fi
+if [ $2 == "4DLF_13x13_I11_YUV444_10" ] ; then
+        W=8125
+        H=5642
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/MI/YUV44410/I11/I11_MI_YUV44410.yuv"
+fi
+if [ $2 == "4DLF_13x13_I12_YUV444_10" ] ; then
+        W=8125
+        H=5642
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/MI/YUV44410/I12/I12_MI_YUV44410.yuv"
+fi
+
+############### MI YUV 420 8bpp ###############
+if [ $2 == "4DLF_13x13_I01_YUV420_8" ] ; then
+        W=8126
+        H=5642
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/MI/YUV4208/I01/I01_MI_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_I02_YUV420_8" ] ; then
+        W=8126
+        H=5642
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/MI/YUV4208/I02/I02_MI_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_I03_YUV420_8" ] ; then
+        W=8126
+        H=5642
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/MI/YUV4208/I03/I03_MI_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_I04_YUV420_8" ] ; then
+        W=8126
+        H=5642
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/MI/YUV4208/I04/I04_MI_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_I05_YUV420_8" ] ; then
+        W=8126
+        H=5642
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/MI/YUV4208/I05/I05_MI_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_I06_YUV420_8" ] ; then
+        W=8126
+        H=5642
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/MI/YUV4208/I06/I06_MI_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_I07_YUV420_8" ] ; then
+        W=8126
+        H=5642
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/MI/YUV4208/I07/I07_MI_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_I08_YUV420_8" ] ; then
+        W=8126
+        H=5642
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/MI/YUV4208/I08/I08_MI_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_I09_YUV420_8" ] ; then
+        W=8126
+        H=5642
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/MI/YUV4208/I09/I09_MI_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_I10_YUV420_8" ] ; then
+        W=8126
+        H=5642
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/MI/YUV4208/I10/I10_MI_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_I11_YUV420_8" ] ; then
+        W=8126
+        H=5642
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/MI/YUV4208/I11/I11_MI_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_I12_YUV420_8" ] ; then
+        W=8126
+        H=5642
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/MI/YUV4208/I12/I12_MI_YUV4208.yuv"
+fi
+
+echo $W 
+echo $H
+echo $MIR
+echo $SEQ
 
 for qp in 12 17 22 27 32 37 42 47 52
 do
