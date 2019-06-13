@@ -157,6 +157,81 @@ if [ $1 == "4DLF_13x13_PVS_I12_YUV420_8" ] ; then
         REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I12/"
 fi
 
+############### PVS SCL YUV 444 10bpp ###############
+
+if [ $1 == "4DLF_13x13_PVS_SCL_I01_YUV444_10" ] ; then
+        W=625
+        H=434
+        representation_type=33
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I01/"
+fi
+if [ $1 == "4DLF_13x13_PVS_SCL_I02_YUV444_10" ] ; then
+        W=625
+        H=434
+        representation_type=33
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I02/"
+fi
+if [ $1 == "4DLF_13x13_PVS_SCL_I03_YUV444_10" ] ; then
+        W=625
+        H=434
+        representation_type=33
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I03/"
+fi
+if [ $1 == "4DLF_13x13_PVS_SCL_I04_YUV444_10" ] ; then
+        W=625
+        H=434
+        representation_type=33
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I04/"
+fi
+if [ $1 == "4DLF_13x13_PVS_SCL_I05_YUV444_10" ] ; then
+        W=625
+        H=434
+        representation_type=33
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I05/"
+fi
+if [ $1 == "4DLF_13x13_PVS_SCL_I06_YUV444_10" ] ; then
+        W=625
+        H=434
+        representation_type=33
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I06/"
+fi
+if [ $1 == "4DLF_13x13_PVS_SCL_I07_YUV444_10" ] ; then
+        W=625
+        H=434
+        representation_type=33
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I07/"
+fi
+if [ $1 == "4DLF_13x13_PVS_SCL_I08_YUV444_10" ] ; then
+        W=625
+        H=434
+        representation_type=33
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I08/"
+fi
+if [ $1 == "4DLF_13x13_PVS_SCL_I09_YUV444_10" ] ; then
+        W=625
+        H=434
+        representation_type=33
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I09/"
+fi
+if [ $1 == "4DLF_13x13_PVS_SCL_I10_YUV444_10" ] ; then
+        W=625
+        H=434
+        representation_type=33
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I10/"
+fi
+if [ $1 == "4DLF_13x13_PVS_SCL_I11_YUV444_10" ] ; then
+        W=625
+        H=434
+        representation_type=33
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I11/"
+fi
+if [ $1 == "4DLF_13x13_PVS_SCL_I12_YUV444_10" ] ; then
+        W=625
+        H=434
+        representation_type=33
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I12/"
+fi
+
 ############### MI YUV 444 10bpp ###############
 if [ $1 == "4DLF_13x13_I01_YUV444_10" ] ; then
         W=8125

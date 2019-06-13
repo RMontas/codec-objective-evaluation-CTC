@@ -30,6 +30,31 @@ def get_seq_data(SEQ):
         elif SEQ == "4DLF_13x13_PVS_I12_YUV444_10":
                 return 625, 434, 13, 13, "4DLF_13x13_PVS_I12_YUV444_10", 0
             
+        elif SEQ == "4DLF_13x13_PVS_SCL_I01_YUV444_10" :
+                return 625, 434, 13, 13, "4DLF_13x13_PVS_SCL_I01_YUV444_10", 0
+        elif SEQ == "4DLF_13x13_PVS_SCL_I02_YUV444_10":
+                return 625, 434, 13, 13, "4DLF_13x13_PVS_SCL_I02_YUV444_10", 0
+        elif SEQ == "4DLF_13x13_PVS_SCL_I03_YUV444_10":
+                return 625, 434, 13, 13, "4DLF_13x13_PVS_SCL_I03_YUV444_10", 0
+        elif SEQ == "4DLF_13x13_PVS_SCL_I04_YUV444_10":
+                return 625, 434, 13, 13, "4DLF_13x13_PVS_SCL_I04_YUV444_10", 0
+        elif SEQ == "4DLF_13x13_PVS_SCL_I05_YUV444_10":
+                return 625, 434, 13, 13, "4DLF_13x13_PVS_SCL_I05_YUV444_10", 0
+        elif SEQ == "4DLF_13x13_PVS_SCL_I06_YUV444_10":
+                return 625, 434, 13, 13, "4DLF_13x13_PVS_SCL_I06_YUV444_10", 0
+        elif SEQ == "4DLF_13x13_PVS_SCL_I07_YUV444_10":
+                return 625, 434, 13, 13, "4DLF_13x13_PVS_SCL_I07_YUV444_10", 0
+        elif SEQ == "4DLF_13x13_PVS_SCL_I08_YUV444_10":
+                return 625, 434, 13, 13, "4DLF_13x13_PVS_SCL_I08_YUV444_10", 0
+        elif SEQ == "4DLF_13x13_PVS_SCL_I09_YUV444_10":
+                return 625, 434, 13, 13, "4DLF_13x13_PVS_SCL_I09_YUV444_10", 0
+        elif SEQ == "4DLF_13x13_PVS_SCL_I10_YUV444_10":
+                return 625, 434, 13, 13, "4DLF_13x13_PVS_SCL_I10_YUV444_10", 0
+        elif SEQ == "4DLF_13x13_PVS_SCL_I11_YUV444_10":
+                return 625, 434, 13, 13, "4DLF_13x13_PVS_SCL_I11_YUV444_10", 0
+        elif SEQ == "4DLF_13x13_PVS_SCL_I12_YUV444_10":
+                return 625, 434, 13, 13, "4DLF_13x13_PVS_SCL_I12_YUV444_10", 0
+            
         elif SEQ == "4DLF_13x13_SAI_I01_YUV444_10" :
                 return 625, 434, 13, 13, "4DLF_13x13_SAI_I01_YUV444_10", 0
         elif SEQ == "4DLF_13x13_SAI_I02_YUV444_10":
@@ -211,7 +236,7 @@ print num_QP_REF0
 print num_QP_MY
 plot(bit_ref0[0:num_QP_REF0],psnr_ref0[0:num_QP_REF0], "r",marker="o", label=args.main_dir_REF)
 plot(bit_my[0:num_QP_MY],psnr_my[0:num_QP_MY], "b",marker="o", label=args.main_dir_MY)
-#xscale('log')
+xscale('log')
 grid(True)
 legend(loc = 4,prop={'size':6})
 xlabel("Rate (bits)")

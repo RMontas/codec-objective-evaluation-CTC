@@ -25,11 +25,20 @@ CFG_SPIRAL_SCL_RA_1="/home/rmonteiro/PhD/hm-16.9-LF-PVS/cfg/spiral_scalable_RA_2
 CFG_SPIRAL_SCL_RA_2="/home/rmonteiro/PhD/hm-16.9-LF-PVS/cfg/spiral_scalable_RA_4way_encoder_lowdelay_main_rext.cfg"
 CFG_SPIRAL_SCL_RA_3="/home/rmonteiro/PhD/hm-16.9-LF-PVS/cfg/spiral_scalable_RA_9way_encoder_lowdelay_main_rext.cfg"
 
+CFG_SPIRAL_SCL_RA_MAXL2="/home/rmonteiro/PhD/hm-16.9-LF-PVS/cfg/spiral_scalable_RA_maxreflayer_2_encoder_lowdelay_main_rext.cfg"
+CFG_SPIRAL_SCL_RA_1_MAXL2="/home/rmonteiro/PhD/hm-16.9-LF-PVS/cfg/spiral_scalable_RA_2way_maxreflayer_2_encoder_lowdelay_main_rext.cfg"
+CFG_SPIRAL_SCL_RA_2_MAXL2="/home/rmonteiro/PhD/hm-16.9-LF-PVS/cfg/spiral_scalable_RA_4way_maxreflayer_2_encoder_lowdelay_main_rext.cfg"
+CFG_SPIRAL_SCL_RA_3_MAXL2="/home/rmonteiro/PhD/hm-16.9-LF-PVS/cfg/spiral_scalable_RA_9way_maxreflayer_2_encoder_lowdelay_main_rext.cfg"
+
+CFG_SPIRAL_SCL_RA_MAXL4="/home/rmonteiro/PhD/hm-16.9-LF-PVS/cfg/spiral_scalable_RA_maxreflayer_4_encoder_lowdelay_main_rext.cfg"
+CFG_SPIRAL_SCL_RA_1_MAXL4="/home/rmonteiro/PhD/hm-16.9-LF-PVS/cfg/spiral_scalable_RA_2way_maxreflayer_4_encoder_lowdelay_main_rext.cfg"
+CFG_SPIRAL_SCL_RA_2_MAXL4="/home/rmonteiro/PhD/hm-16.9-LF-PVS/cfg/spiral_scalable_RA_4way_maxreflayer_4_encoder_lowdelay_main_rext.cfg"
+CFG_SPIRAL_SCL_RA_3_MAXL4="/home/rmonteiro/PhD/hm-16.9-LF-PVS/cfg/spiral_scalable_RA_9way_maxreflayer_4_encoder_lowdelay_main_rext.cfg"
+
 # PVSSPIRAL YUV44410
 echo $2
 FO=0
 MIR=13
-
 
 ############### PVS YUV 444 10bpp ###############
 if [ $2 == "4DLF_13x13_PVS_I01_YUV444_10" ] ; then
@@ -154,6 +163,131 @@ if [ $2 == "4DLF_13x13_PVS_I12_YUV420_8" ] ; then
         W=626
         H=434
         SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL/YUV4208/I12/I12_PVSSPIRAL_YUV4208.yuv"
+fi
+
+############### PVS SCL YUV 444 10bpp ###############
+if [ $2 == "4DLF_13x13_PVS_SCL_I01_YUV444_10" ] ; then
+        W=625
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL_SCL/YUV44410/I01/I01_PVSSPIRAL_SCL_YUV44410.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_SCL_I02_YUV444_10" ] ; then
+        W=625
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL_SCL/YUV44410/I02/I02_PVSSPIRAL_SCL_YUV44410.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_SCL_I03_YUV444_10" ] ; then
+        W=625
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL_SCL/YUV44410/I03/I03_PVSSPIRAL_SCL_YUV44410.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_SCL_I04_YUV444_10" ] ; then
+        W=625
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL_SCL/YUV44410/I04/I04_PVSSPIRAL_SCL_YUV44410.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_SCL_I05_YUV444_10" ] ; then
+        W=625
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL_SCL/YUV44410/I05/I05_PVSSPIRAL_SCL_YUV44410.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_SCL_I06_YUV444_10" ] ; then
+        W=625
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL_SCL/YUV44410/I06/I06_PVSSPIRAL_SCL_YUV44410.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_SCL_I07_YUV444_10" ] ; then
+        W=625
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL_SCL/YUV44410/I07/I07_PVSSPIRAL_SCL_YUV44410.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_SCL_I08_YUV444_10" ] ; then
+        W=625
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL_SCL/YUV44410/I08/I08_PVSSPIRAL_SCL_YUV44410.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_SCL_I09_YUV444_10" ] ; then
+        W=625
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL_SCL/YUV44410/I09/I09_PVSSPIRAL_SCL_YUV44410.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_SCL_I10_YUV444_10" ] ; then
+        W=625
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL_SCL/YUV44410/I10/I10_PVSSPIRAL_SCL_YUV44410.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_SCL_I11_YUV444_10" ] ; then
+        W=625
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL_SCL/YUV44410/I11/I11_PVSSPIRAL_SCL_YUV44410.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_SCL_I12_YUV444_10" ] ; then
+        W=625
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL_SCL/YUV44410/I12/I12_PVSSPIRAL_SCL_YUV44410.yuv"
+fi
+
+
+############### PVS SCL YUV 420 8bpp ###############
+if [ $2 == "4DLF_13x13_PVS_SCL_I01_YUV420_8" ] ; then
+        W=626
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL_SCL/YUV4208/I01/I01_PVSSPIRAL_SCL_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_SCL_I02_YUV420_8" ] ; then
+        W=626
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL_SCL/YUV4208/I02/I02_PVSSPIRAL_SCL_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_SCL_I03_YUV420_8" ] ; then
+        W=626
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL_SCL/YUV4208/I03/I03_PVSSPIRAL_SCL_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_SCL_I04_YUV420_8" ] ; then
+        W=626
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL_SCL/YUV4208/I04/I04_PVSSPIRAL_SCL_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_SCL_I05_YUV420_8" ] ; then
+        W=626
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL_SCL/YUV4208/I05/I05_PVSSPIRAL_SCL_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_SCL_I06_YUV420_8" ] ; then
+        W=626
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL_SCL/YUV4208/I06/I06_PVSSPIRAL_SCL_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_SCL_I07_YUV420_8" ] ; then
+        W=626
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL_SCL/YUV4208/I07/I07_PVSSPIRAL_SCL_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_SCL_I08_YUV420_8" ] ; then
+        W=626
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL_SCL/YUV4208/I08/I08_PVSSPIRAL_SCL_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_SCL_I09_YUV420_8" ] ; then
+        W=626
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL_SCL/YUV4208/I09/I09_PVSSPIRAL_SCL_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_SCL_I10_YUV420_8" ] ; then
+        W=626
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL_SCL/YUV4208/I10/I10_PVSSPIRAL_SCL_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_SCL_I11_YUV420_8" ] ; then
+        W=626
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL_SCL/YUV4208/I11/I11_PVSSPIRAL_SCL_YUV4208.yuv"
+fi
+if [ $2 == "4DLF_13x13_PVS_SCL_I12_YUV420_8" ] ; then
+        W=626
+        H=434
+        SEQ="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/PVSSPIRAL_SCL/YUV4208/I12/I12_PVSSPIRAL_SCL_YUV4208.yuv"
 fi
 
 
@@ -306,17 +440,17 @@ do
         then
                 ./TAppEncoderStatic -c $CFG_HEVC_INTER_B -i $SEQ -fr 25 -fs $FO -f $4 -wdt $W -hgt $H -q $qp -sr 64 --ConformanceMode 1 --ConformanceWindowMode 1 &> out_${2}_${qp}.txt &
         fi
-	if [ $3 == 22 ] # HEVC Inter B YUV444_10 (!search window 64!)
+	if [ $3 == 22 ] # HEVC Inter B YUV444_10 (!search window 64!) (!!!!!!SERIES!!!!!!!)
         then
-                ./TAppEncoderStatic -c $CFG_HEVC_REXT_INTER_B -i $SEQ -fr 25 -fs $FO -f $4 -wdt $W -hgt $H -q $qp -sr 64 --InputChromaFormat=444 --ChromaFormatIDC=444 --InputBitDepth=10 --OutputBitDepth=10 --ConformanceMode 1 --ConformanceWindowMode 1 &> out_${2}_${qp}.txt &
+                ./TAppEncoderStatic -c $CFG_HEVC_REXT_INTER_B -i $SEQ -fr 25 -fs $FO -f $4 -wdt $W -hgt $H -q $qp -sr 64 --InputChromaFormat=444 --ChromaFormatIDC=444 --InputBitDepth=10 --OutputBitDepth=10 --ConformanceMode 1 --ConformanceWindowMode 1 &> out_${2}_${qp}.txt 
         fi
         if [ $3 == 3 ] # HEVC Inter B YUV420_8 (!search window 64!) NON SCALABLE SPIRAL (!SAO OFF!)
         then
                 ./TAppEncoderStatic -c $CFG_SPIRAL_YUV420_8 -i $SEQ -fr 25 -fs $FO -f $4 -wdt $W -hgt $H -q $qp -sr 64 --SAO=0 --ConformanceMode 1 --ConformanceWindowMode 1 &> out_${2}_${qp}.txt &
         fi
-	if [ $3 == 33 ] # HEVC Inter B YUV444_10 (!search window 64!) NON SCALABLE SPIRAL (!SAO OFF!)
+	if [ $3 == 33 ] # HEVC Inter B YUV444_10 (!search window 64!) NON SCALABLE SPIRAL (!SAO OFF!) (!!!!!!SERIES!!!!!!)
         then
-                ./TAppEncoderStatic -c $CFG_SPIRAL -i $SEQ -fr 25 -fs $FO -f $4 -wdt $W -hgt $H -q $qp -sr 64 --SAO=0 --InputChromaFormat=444 --ChromaFormatIDC=444 --InputBitDepth=10 --OutputBitDepth=10 --ConformanceMode 1 --ConformanceWindowMode 1 &> out_${2}_${qp}.txt &
+                ./TAppEncoderStatic -c $CFG_SPIRAL -i $SEQ -fr 25 -fs $FO -f $4 -wdt $W -hgt $H -q $qp -sr 64 --SAO=0 --InputChromaFormat=444 --ChromaFormatIDC=444 --InputBitDepth=10 --OutputBitDepth=10 --ConformanceMode 1 --ConformanceWindowMode 1 &> out_${2}_${qp}.txt 
         fi
         if [ $3 == 4 ] # HEVC Inter B YUV420_8 (!search window 64!) SCALABLE SPIRAL (!SAO OFF!)
         then
@@ -326,17 +460,51 @@ do
         then
                 ./TAppEncoderStatic -c $CFG_SPIRAL_SCL -i $SEQ -fr 25 -fs $FO -f $4 -wdt $W -hgt $H -q $qp -sr 64 --SAO=0 --InputChromaFormat=444 --ChromaFormatIDC=444 --InputBitDepth=10 --OutputBitDepth=10 --ConformanceMode 1 --ConformanceWindowMode 1 &> out_${2}_${qp}.txt 
         fi
-	if [ $3 == 441 ] # HEVC Inter B YUV444_10 (!search window 64!) SCALABLE SPIRAL (!SAO OFF!) RANDOM ACCESS PROFILE 2-WAY (!!!!!!SERIES!!!!!!!)
+
+	if [ $3 == 4401 ] # HEVC Inter B YUV444_10 (!search window 64!) SCALABLE SPIRAL (!SAO OFF!) RA MAX REF LAYER 2
         then
-                ./TAppEncoderStatic -c $CFG_SPIRAL_SCL_RA_1 -i $SEQ -fr 25 -fs $FO -f $4 -wdt $W -hgt $H -q $qp -sr 64 --SAO=0 --InputChromaFormat=444 --ChromaFormatIDC=444 --InputBitDepth=10 --OutputBitDepth=10 --ConformanceMode 1 --ConformanceWindowMode 1 &> out_${2}_${qp}.txt 
+                ./TAppEncoderStatic -c $CFG_SPIRAL_SCL_RA_MAXL2 -i $SEQ -fr 25 -fs $FO -f $4 -wdt $W -hgt $H -q $qp -sr 64 --SAO=0 --InputChromaFormat=444 --ChromaFormatIDC=444 --InputBitDepth=10 --OutputBitDepth=10 --ConformanceMode 1 --ConformanceWindowMode 1 &> out_${2}_${qp}.txt &
         fi
-        if [ $3 == 442 ] # HEVC Inter B YUV444_10 (!search window 64!) SCALABLE SPIRAL (!SAO OFF!) RANDOM ACCESS PROFILE 4-WAY (!!!!!!SERIES!!!!!!!)
+	if [ $3 == 4402 ] # HEVC Inter B YUV444_10 (!search window 64!) SCALABLE SPIRAL (!SAO OFF!) RA MAX REF LAYER 4
+        then
+                ./TAppEncoderStatic -c $CFG_SPIRAL_SCL_RA_MAXL4 -i $SEQ -fr 25 -fs $FO -f $4 -wdt $W -hgt $H -q $qp -sr 64 --SAO=0 --InputChromaFormat=444 --ChromaFormatIDC=444 --InputBitDepth=10 --OutputBitDepth=10 --ConformanceMode 1 --ConformanceWindowMode 1 &> out_${2}_${qp}.txt &
+        fi
+
+	if [ $3 == 441 ] # HEVC Inter B YUV444_10 (!search window 64!) SCALABLE SPIRAL (!SAO OFF!) RANDOM ACCESS PROFILE 2-WAY
+        then
+                ./TAppEncoderStatic -c $CFG_SPIRAL_SCL_RA_1 -i $SEQ -fr 25 -fs $FO -f $4 -wdt $W -hgt $H -q $qp -sr 64 --SAO=0 --InputChromaFormat=444 --ChromaFormatIDC=444 --InputBitDepth=10 --OutputBitDepth=10 --ConformanceMode 1 --ConformanceWindowMode 1 &> out_${2}_${qp}.txt &
+        fi
+	if [ $3 == 4411 ] # HEVC Inter B YUV444_10 (!search window 64!) SCALABLE SPIRAL (!SAO OFF!) RANDOM ACCESS PROFILE 2-WAY | MAX REF LAYER 2
+        then
+                ./TAppEncoderStatic -c $CFG_SPIRAL_SCL_RA_1_MAXL2 -i $SEQ -fr 25 -fs $FO -f $4 -wdt $W -hgt $H -q $qp -sr 64 --SAO=0 --InputChromaFormat=444 --ChromaFormatIDC=444 --InputBitDepth=10 --OutputBitDepth=10 --ConformanceMode 1 --ConformanceWindowMode 1 &> out_${2}_${qp}.txt  &
+        fi
+	if [ $3 == 4412 ] # HEVC Inter B YUV444_10 (!search window 64!) SCALABLE SPIRAL (!SAO OFF!) RANDOM ACCESS PROFILE 2-WAY | MAX REF LAYER 4
+        then
+                ./TAppEncoderStatic -c $CFG_SPIRAL_SCL_RA_1_MAXL4 -i $SEQ -fr 25 -fs $FO -f $4 -wdt $W -hgt $H -q $qp -sr 64 --SAO=0 --InputChromaFormat=444 --ChromaFormatIDC=444 --InputBitDepth=10 --OutputBitDepth=10 --ConformanceMode 1 --ConformanceWindowMode 1 &> out_${2}_${qp}.txt &
+        fi
+        if [ $3 == 442 ] # HEVC Inter B YUV444_10 (!search window 64!) SCALABLE SPIRAL (!SAO OFF!) RANDOM ACCESS PROFILE 4-WAY
         then
                 ./TAppEncoderStatic -c $CFG_SPIRAL_SCL_RA_2 -i $SEQ -fr 25 -fs $FO -f $4 -wdt $W -hgt $H -q $qp -sr 64 --SAO=0 --InputChromaFormat=444 --ChromaFormatIDC=444 --InputBitDepth=10 --OutputBitDepth=10 --ConformanceMode 1 --ConformanceWindowMode 1 &> out_${2}_${qp}.txt 
         fi
-        if [ $3 == 443 ] # HEVC Inter B YUV444_10 (!search window 64!) SCALABLE SPIRAL (!SAO OFF!) RANDOM ACCESS PROFILE 9-WAY (!!!!!!SERIES!!!!!!!)
+	if [ $3 == 4421 ] # HEVC Inter B YUV444_10 (!search window 64!) SCALABLE SPIRAL (!SAO OFF!) RANDOM ACCESS PROFILE 4-WAY | MAX REF LAYER 2
+        then
+                ./TAppEncoderStatic -c $CFG_SPIRAL_SCL_RA_2_MAXL2 -i $SEQ -fr 25 -fs $FO -f $4 -wdt $W -hgt $H -q $qp -sr 64 --SAO=0 --InputChromaFormat=444 --ChromaFormatIDC=444 --InputBitDepth=10 --OutputBitDepth=10 --ConformanceMode 1 --ConformanceWindowMode 1 &> out_${2}_${qp}.txt  &
+        fi
+        if [ $3 == 4422 ] # HEVC Inter B YUV444_10 (!search window 64!) SCALABLE SPIRAL (!SAO OFF!) RANDOM ACCESS PROFILE 4-WAY | MAX REF LAYER 4
+        then
+                ./TAppEncoderStatic -c $CFG_SPIRAL_SCL_RA_2_MAXL4 -i $SEQ -fr 25 -fs $FO -f $4 -wdt $W -hgt $H -q $qp -sr 64 --SAO=0 --InputChromaFormat=444 --ChromaFormatIDC=444 --InputBitDepth=10 --OutputBitDepth=10 --ConformanceMode 1 --ConformanceWindowMode 1 &> out_${2}_${qp}.txt &
+        fi
+        if [ $3 == 443 ] # HEVC Inter B YUV444_10 (!search window 64!) SCALABLE SPIRAL (!SAO OFF!) RANDOM ACCESS PROFILE 9-WAY
         then
                 ./TAppEncoderStatic -c $CFG_SPIRAL_SCL_RA_3 -i $SEQ -fr 25 -fs $FO -f $4 -wdt $W -hgt $H -q $qp -sr 64 --SAO=0 --InputChromaFormat=444 --ChromaFormatIDC=444 --InputBitDepth=10 --OutputBitDepth=10 --ConformanceMode 1 --ConformanceWindowMode 1 &> out_${2}_${qp}.txt 
+        fi
+	if [ $3 == 4431 ] # HEVC Inter B YUV444_10 (!search window 64!) SCALABLE SPIRAL (!SAO OFF!) RANDOM ACCESS PROFILE 9-WAY | MAX REF LAYER 2
+        then
+                ./TAppEncoderStatic -c $CFG_SPIRAL_SCL_RA_3_MAXL2 -i $SEQ -fr 25 -fs $FO -f $4 -wdt $W -hgt $H -q $qp -sr 64 --SAO=0 --InputChromaFormat=444 --ChromaFormatIDC=444 --InputBitDepth=10 --OutputBitDepth=10 --ConformanceMode 1 --ConformanceWindowMode 1 &> out_${2}_${qp}.txt  &
+        fi
+        if [ $3 == 4432 ] # HEVC Inter B YUV444_10 (!search window 64!) SCALABLE SPIRAL (!SAO OFF!) RANDOM ACCESS PROFILE 9-WAY | MAX REF LAYER 4
+        then
+                ./TAppEncoderStatic -c $CFG_SPIRAL_SCL_RA_3_MAXL4 -i $SEQ -fr 25 -fs $FO -f $4 -wdt $W -hgt $H -q $qp -sr 64 --SAO=0 --InputChromaFormat=444 --ChromaFormatIDC=444 --InputBitDepth=10 --OutputBitDepth=10 --ConformanceMode 1 --ConformanceWindowMode 1 &> out_${2}_${qp}.txt &
         fi
 	cd ../../../
 	fi
