@@ -8,9 +8,158 @@
 ## Description:
 ## gathers in two files all the bit and psnr values necessary to calculate BJM and generate RD curves
 
-# PVSSPIRAL YUV44410
 
 MIR=13
+
+############### LL YUV 420 8bpp ###############
+if [ $1 == "LL_I01" ] ; then
+        W=7728
+        H=5368
+        representation_type=0
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I01/"
+fi
+if [ $1 == "LL_I02" ] ; then
+        W=7728
+        H=5368
+        representation_type=0
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I02/"
+fi
+if [ $1 == "LL_I03" ] ; then
+        W=7728
+        H=5368
+        representation_type=0
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I03/"
+fi
+if [ $1 == "LL_I04" ] ; then
+        W=7728
+        H=5368
+        representation_type=0
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I04/"
+fi
+if [ $1 == "LL_I05" ] ; then
+        W=7728
+        H=5368
+        representation_type=0
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I05/"
+fi
+if [ $1 == "LL_I06" ] ; then
+        W=7728
+        H=5368
+        representation_type=0
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I06/"
+fi
+if [ $1 == "LL_I07" ] ; then
+        W=7728
+        H=5368
+        representation_type=0
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I07/"
+fi
+if [ $1 == "LL_I08" ] ; then
+        W=7728
+        H=5368
+        representation_type=0
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I08/"
+fi
+if [ $1 == "LL_I09" ] ; then
+        W=7728
+        H=5368
+        representation_type=0
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I09/"
+fi
+if [ $1 == "LL_I10" ] ; then
+        W=7728
+        H=5368
+        representation_type=0
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I10/"
+fi
+if [ $1 == "LL_I11" ] ; then
+        W=7728
+        H=5368
+        representation_type=0
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I11/"
+fi
+if [ $1 == "LL_I12" ] ; then
+        W=7728
+        H=5368
+        representation_type=0
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I12/"
+fi
+
+############### LL YUV 444 10bpp ###############
+if [ $1 == "LL_I01_YUV444_10" ] ; then
+        W=7728
+        H=5368
+        representation_type=0
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I01/"
+fi
+if [ $1 == "LL_I02_YUV444_10" ] ; then
+        W=7728
+        H=5368
+        representation_type=0
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I02/"
+fi
+if [ $1 == "LL_I03_YUV444_10" ] ; then
+        W=7728
+        H=5368
+        representation_type=0
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I03/"
+fi
+if [ $1 == "LL_I04_YUV444_10" ] ; then
+        W=7728
+        H=5368
+        representation_type=0
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I04/"
+fi
+if [ $1 == "LL_I05_YUV444_10" ] ; then
+        W=7728
+        H=5368
+        representation_type=0
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I05/"
+fi
+if [ $1 == "LL_I06_YUV444_10" ] ; then
+        W=7728
+        H=5368
+        representation_type=0
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I06/"
+fi
+if [ $1 == "LL_I07_YUV444_10" ] ; then
+        W=7728
+        H=5368
+        representation_type=0
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I07/"
+fi
+if [ $1 == "LL_I08_YUV444_10" ] ; then
+        W=7728
+        H=5368
+        representation_type=0
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I08/"
+fi
+if [ $1 == "LL_I09_YUV444_10" ] ; then
+        W=7728
+        H=5368
+        representation_type=0
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I09/"
+fi
+if [ $1 == "LL_I10_YUV444_10" ] ; then
+        W=7728
+        H=5368
+        representation_type=0
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I10/"
+fi
+if [ $1 == "LL_I11_YUV444_10" ] ; then
+        W=7728
+        H=5368
+        representation_type=0
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I11/"
+fi
+if [ $1 == "LL_I12_YUV444_10" ] ; then
+        W=7728
+        H=5368
+        representation_type=0
+        REF="/home/rmonteiro/PhD/Sequences/JPEG_Pleno/SAI/RGB44410/I12/"
+fi
+
+# PVSSPIRAL YUV44410
 if [ $1 == "4DLF_13x13_PVS_I01_YUV444_10" ] ; then
         W=625
         H=434
@@ -390,11 +539,11 @@ for qp in 12 17 22 27 32 37 42 47
 do
 if [ -d ${dir}/$2/$1/$qp ]; then
 if [ $3 == 1 ] ; then
-	echo "calcMetricsYUV4208('${REF}','${dir}/$2/$1/$qp/rec.yuv',${representation_type},$H,$W,${MIR},'${dir}/$2/$1/${2}_avg_psnr_views.txt'); quit;"
+	echo "calcMetricsYUV4208('${REF}','${dir}/$2/$1/$qp/rec.yuv',${representation_type},$H,$W,${MIR},'${dir}/$2/$1/${2}_avg_psnr_views'); quit;"
         /usr/local/MATLAB/R2017a/bin/matlab -nodesktop -nosplash -r "calcMetricsYUV4208('${REF}','${dir}/$2/$1/$qp/rec.yuv',${representation_type},$H,$W,${MIR},'${dir}/$2/$1/${2}'); quit;"
 fi
 if [ $3 == 2 ] ; then
-	echo "calcMetricsYUV44410('${REF}','${dir}/$2/$1/$qp/rec.yuv',${representation_type},$H,$W,${MIR},'${dir}/$2/$1/${2}_avg_psnr_views.txt'); quit;"
+	echo "calcMetricsYUV44410('${REF}','${dir}/$2/$1/$qp/rec.yuv',${representation_type},$H,$W,${MIR},'${dir}/$2/$1/${2}_avg_psnr_views'); quit;"
         /usr/local/MATLAB/R2017a/bin/matlab -nodesktop -nosplash -r "calcMetricsYUV44410('${REF}','${dir}/$2/$1/$qp/rec.yuv',${representation_type},$H,$W,${MIR},'${dir}/$2/$1/${2}'); quit;"
 fi
 

@@ -154,6 +154,24 @@ def get_seq_data(SEQ):
                 return 8125, 5642, 13, 13, "4DLF_13x13_I11_YUV444_10", 0
         elif SEQ == "4DLF_13x13_I12_YUV444_10":
                 return 8125, 5642, 13, 13, "4DLF_13x13_I12_YUV444_10", 0
+            
+        elif SEQ == "4DLF_PVS_GREEK_YUV444_10":
+                return 512, 512, 9, 9, "4DLF_PVS_GREEK_YUV444_10", 0
+        elif SEQ == "4DLF_PVS_SIDEBOARD_YUV444_10":
+                return 512, 512, 9, 9, "4DLF_PVS_SIDEBOARD_YUV444_10", 0
+        elif SEQ == "4DLF_PVS0_SET2_YUV444_10":
+                return 1920, 1080, 33, 11, "4DLF_PVS_SET2_YUV444_10", 0
+        elif SEQ == "4DLF_PVS_TAROT_YUV444_10":
+                return 1024, 1024, 17, 17, "4DLF_PVS_TAROT_YUV444_10", 0
+            
+        elif SEQ == "4DLF_PVS_SCL_GREEK_YUV444_10":
+                return 512, 512, 9, 9, "4DLF_PVS_SCL_GREEK_YUV444_10", 0
+        elif SEQ == "4DLF_PVS_SCL_SIDEBOARD_YUV444_10":
+                return 512, 512, 9, 9, "4DLF_PVS_SCL_SIDEBOARD_YUV444_10", 0
+        elif SEQ == "4DLF_PVS0_SCL_SET2_YUV444_10":
+                return 1920, 1080, 33, 11, "4DLF_PVS_SCL_SET2_YUV444_10", 0
+        elif SEQ == "4DLF_PVS_SCL_TAROT_YUV444_10":
+                return 1024, 1024, 17, 17, "4DLF_PVS_SCL_TAROT_YUV444_10", 0
         
 parser = argparse.ArgumentParser(description="Script for RD Curves")
 parser.add_argument("SEQ_MY", type=str)
